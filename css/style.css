@@ -1,28 +1,4 @@
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
-
-html {
-  font-size: 62.5%;
-}
-
-body {
-  font-family: "Arial", sans-serif;
-  line-height: 1;
-  font-size: 1.6rem;
-  font-weight: ;
-  color: #fff;
-  background-color: #0d1117;
-}
-
-.main {
-  width: 80%;
-  margin: 4rem auto 4rem auto;
-}
-
-h1 {
+.name {
   font-size: 5.4rem;
   text-align: center;
   margin-bottom: 3rem;
@@ -34,10 +10,100 @@ h1 {
 
 .img-box {
   display: block;
-  margin: 2rem auto 0 auto;
+  width: 40rem;
+  margin: 2rem auto 4rem auto;
 }
 
-h3 {
-  font-size: 4rem;
+.me {
+  font-size: 3rem;
   text-align: center;
+  margin-bottom: 3.6rem;
+}
+
+.info-title {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+/***********/
+/* TABLEAU */
+/***********/
+
+table {
+  margin: 0 auto 5rem auto;
+}
+
+table,
+td {
+  border: 1px solid rgb(148, 148, 148);
+  border-collapse: collapse;
+  text-align: center;
+}
+
+th,
+td {
+  padding: 1rem;
+}
+
+/***********/
+/* HOBBIES */
+/***********/
+
+.hobbies {
+  width: 30rem;
+  margin: 0 auto 5rem auto;
+}
+
+.hobbies-title {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.list li {
+  margin: 1rem 0 1rem 0;
+}
+
+.sub-list li {
+  margin: 0.8rem 0 0.8rem 3.2rem;
+}
+
+/************/
+/* COUNT ME */
+/************/
+
+.count-me {
+  width: 60rem;
+  margin: 0 auto 6.2rem;
+}
+
+.count-me-title {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.count-me-description {
+  margin-bottom: 2rem;
+  line-height: 1.2;
+  letter-spacing: 0.1rem;
+}
+
+/*************************/
+/* PREVIOUS NEXT BUTTONS */
+/*************************/
+
+.prev-next-buttons {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+}
+
+/**************/
+/* SMALL LIGN */
+/**************/
+.sm-lg {
+  width: 10rem;
+  border-top: 3px solid #7d7c7c;
+  border-radius: 50%;
 }

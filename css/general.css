@@ -1,0 +1,83 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Arial", sans-serif;
+  line-height: 1;
+  font-size: 1.6rem;
+  color: #fff;
+  background-color: #0d1117;
+}
+
+.main {
+  width: 80%;
+  margin: 4rem auto 4rem auto;
+}
+
+.title {
+  font-size: 2.2rem;
+}
+
+/**********/
+/* BUTTON */
+/**********/
+
+/* .btn {
+  color: #fff;
+  background: transparent;
+  padding: 1.8rem 2.4rem;
+  font-family: "OpenSansBold", sans-serif;
+  border: 3px solid #fff;
+  font-size: 1.4rem;
+  font-weight: bold;
+  letter-spacing: 0.1rem;
+  text-transform: uppercase;
+  border-radius: 2px;
+  display: inline-block;
+  text-align: center;
+  cursor: pointer;
+  transition: all ease-in 0.5s;
+} */
+
+/* .btn:hover {
+  background-color: #fff;
+  color: #000;
+} */
+
+.nav-link:link,
+.nav-link:visited,
+.nav-link:active {
+  color: #fff;
+  text-decoration: none;
+
+  background: transparent;
+  padding: 1.8rem 2.4rem;
+  font-family: "OpenSansBold", sans-serif;
+  border: 3px solid #fff;
+  font-size: 1.4rem;
+  font-weight: bold;
+  letter-spacing: 0.1rem;
+  text-transform: uppercase;
+  border-radius: 2px;
+  display: inline-block;
+  text-align: center;
+  cursor: pointer;
+  transition: all ease-in 0.3s;
+  width: 15rem;
+}
+
+.nav-link:hover {
+  color: #000;
+  background-color: #fff;
+}
+
+.actual-page {
+  font-size: 3rem;
+}

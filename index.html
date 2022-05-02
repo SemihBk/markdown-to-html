@@ -5,11 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/general.css" />
     <title>markdown to html</title>
   </head>
   <body>
     <section class="main">
-      <h1>Semih Bekki</h1>
+      <h1 class="name">Semih Bekki</h1>
       <p class="quote">
         <em
           >L'homme a besoin de ce qu'il y a de pire en lui s'il veut parvenir à
@@ -20,8 +21,80 @@
 
       <img class="img-box" src="img/SB-s.jpg" alt="Ma photo de profil" />
 
-      <h3>Junior Web Developer à BeCode à temps plein!</h3>
-      <h3>Quelques infos personnelles...</h3>
+      <h3 class="me">Junior Web Developer à BeCode à temps plein!</h3>
+      <h3 class="info-title title">Quelques infos personnelles...</h3>
+
+      <table>
+        <thead>
+          <tr>
+            <th colspan="2">Ask and answers</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Birthday</td>
+            <td>11/05</td>
+          </tr>
+          <tr>
+            <td>Favorite color</td>
+            <td>bleue nuit</td>
+          </tr>
+          <tr>
+            <td>Favorite food</td>
+            <td>Lahmacuns😋</td>
+          </tr>
+
+          <tr>
+            <td>Pinneapple on pizza</td>
+            <td>🤢🤢</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <div class="hobbies">
+        <h3 class="hobbies-title title">Hobbies</h3>
+        <ul class="main-list list">
+          <li>🎵 Musique</li>
+          <li>💪 Musculation</li>
+          <li>🧠 Philosophie</li>
+          <ul class="sub-list">
+            <li>Nietzsche</li>
+          </ul>
+          <li>📖 Histoire</li>
+          <li>🕹️ Jeux vidéos (dépend des périodes)</li>
+          <ul class="sub-list">
+            <li>Portal 2</li>
+            <li>Rocket League</li>
+            <li>FIFA</li>
+          </ul>
+        </ul>
+      </div>
+
+      <div class="count-me">
+        <h3 class="count-me-title title">You can always count on me when...</h3>
+        <p class="count-me-description">
+          On a besoin d'être accompagné.<br />
+          Nous sommes tous des êtres humains avec des parcours différents et des
+          tempéraments différents. L'infaillible n'existe pas, l'important est
+          de toujours chercher à grandir et à s'améliorer.<br />
+        </p>
+
+        <p class="count-me-description">
+          Pour cela, il faut faire preuve de Raison et non de ressentiments. Il
+          nous arrive de ne pas pouvoir réussir à atteindre la sérénité de l'âme
+          pour utiliser sa Raison, dans ce cas-là, il est souvent utile d'être
+          accompagné pour réussir à y parvenir. On peut compter sur moi en
+          période d'angoisse et d'anxiété.
+        </p>
+      </div>
+
+      <div class="prev-next-buttons">
+        <a href="#" class="nav-link">Précédent</a>
+        <div class="sm-lg"></div>
+        <h3 class="actual-page">Semih Bekki</h3>
+        <div class="sm-lg"></div>
+        <a href="#" class="nav-link">Suivant</a>
+      </div>
     </section>
   </body>
 </html>
